@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.container {
+    margin: auto;
+    padding: auto;
+    
+}
+main {
+    background-color: white;
+    padding: 10px 50px;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+main > div {
+    margin: 20px;
+}
+.info {
+    
+    background-color: white;
+    flex: 2;
+    
+
+}
+
+.profile {
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+p > img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+#icon2 {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.data > * {
+    margin-bottom: 10px;
+}
+
+#jane {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    top: -52px;
+    left: 36px;
+}
+
+
+
+.cover {
+    background-color: #619cb1;
+    height: 90px;
+}
+
+.data {
+    
+    position: relative;
+    top: -42px;
+    left: 36px;
+}
