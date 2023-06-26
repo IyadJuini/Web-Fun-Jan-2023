@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h1>Dojonary</h1>
+            <input type="search" name="searchBar" id="searchBar" placeholder="Search">
+            <button id="logBtn" onclick="logIn('logBtn')">Login</button>
+        </nav>
+        <main>
+                <div class="defTable">
+                    <div class="def">
+                        <div class="board">
+                            <h2>Ninja</h2>
+                            <h3>noun</h3>
+                            <p>plural:<span class="italic">ninjas</span></p>
+                            <button id="likeBtn" onclick="alert('Ninja was liked')">13 Likes</button>
+                        </div>
+                        <div class="meaning">
+                            <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                        </div>
+                    </div>
+                    <div class="def">
+                        <div class="board">
+                            <h2>Ninja</h2>
+                            <h3>noun</h3>
+                            <p>plural:<span>ninjas</span></p>
+                            <button id="likeBtn" onclick="alert('Ninja was liked')">37 Likes</button>
+                        </div>
+                        <div class="meaning">
+                            <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="addDef">
+                    <p>Dojonary is defined by <span>YOU</span></p>
+                    <button id="addDefBtn" onclick="hide(this)">Add Definition</button>
+                </div>
+        </main>
+    </div>
+    <script src="button.js"></script>
+</body>
+</html>

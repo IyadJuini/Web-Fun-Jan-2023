@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+
+}
+.navbar{
+    width: 100%;
+    background-color: gray;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    font-family: ;
+}
+    h1{
+        color: black;
+        font-size: 24pt;
+        font-weight: lighter;
+    }
+    #searchBar{
+        width: 300px;
+    }
+    #logBtn {
+        box-shadow: 3px 4px 0px 2px black;
+        color: white;
+        width: 56px;
+        height: 22px;
+        background-color: rgb(43, 120, 228);
+        border-width: 3px;
+    }
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:  848px;
+    margin-top: 20px;
+}
+    .defTable{
+        flex: 2;
+        margin-right: 20px;
+    }
+        .def{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-style: solid;
+            margin-bottom: 20px;
+            height: 160px;
+        }
+            .italic{
+                font-style: italic;
+            }
+            .board{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-evenly;
+                height: 140px;
+            }
+                h3{
+                    margin-left: 7px;
+                    
+                }
+                .board p{
+                    margin-left: -10px;
+                }
+                .meaning p{
+                    font-size: 24px;
+                }
+                #likeBtn {
+                    box-shadow: 3px 4px 0px 2px black;
+                    color: black;
+                    width: 86px;
+                    height: 30px;
+                    background-color: rgb(255, 217, 102);
+                    border-width: 3px;
+                    margin-left: -10px;
+                    
+                }
+                .meaning{
+                    max-width: 50%;
+                }
+    .addDef{
+        flex :1;
+        border-style: solid;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .addDef p {
+        font-size: 16pt;
+        max-width: 60%;
+    }
+    span{
+        font-weight: bold;
+    }
+    #addDefBtn{
+        box-shadow: 3px 4px 0px 2px black;
+        color: black;
+        width: 174px;
+        height: 36px;
+        background-color: rgb(147, 196, 125);
+        border-width: 3px;
+        margin-left: -10px;
+        font-size: 12pt;
+    }
