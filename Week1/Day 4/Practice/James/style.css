@@ -1,0 +1,107 @@
+                                                                                                                        /* RESET ALL DEFAULT */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* CONTAINER CONTENT */
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 500px;
+    background-color: #062134;
+    padding: 10px; 
+}
+    /* NAVIGATION CONTENT */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: aliceblue;
+        padding: 10px;
+    }
+    h1 {
+        font-weight: lighter;
+
+    }
+    span {
+        color:#1279cb;
+    }
+    li {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    li:first-child {
+        color: #1279cb;
+    }
+    /* MAIN CONTENT */
+    main {
+        background-color: white;
+        padding: 10px;
+    }
+    main img {
+        /* background-color: white; */
+        width: 100%;
+    }
+    /* SUB-CONTENT */
+        .sub-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        /* CARD CONTENT */
+        .card {
+            background-color: #1468a8;
+            width: 30%;
+            padding: 10px;
+            color:white;
+        }
+        .card > img {
+            width: 40px;
+
+        }
+        .card > h3 {
+            display: inline-block;
+            font-size: 20pt;
+            font-weight: lighter;
+        }
+        .card p{
+            padding: 10px 5px;
+            margin-bottom: 10px;
+        }
+        .testimonial{
+            margin-top: 10px;
+            display: flex;
+            width: 65%;
+        }
+        .card button {
+            padding: 7px 15px;
+            background-color: #1b99e8;
+            color: white;
+            border: none;
+            border-radius: 10%;
+        }
+        .flex {
+            display: flex;
+            width: 65%;
+            margin-top: 5px;
+        }
+        .flex p{
+            margin-left: 10px;
+        }
+        .flex-2{
+            background-color: aqua;
+            width: 30px;
+            min-height: 10px;
+            margin-left: 25px;
+        }
+        footer{
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+        }
+        footer p{
+            margin: 10px;
+        }

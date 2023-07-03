@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display:flex ;
+    justify-content: space-between;
+    background-color: rgb(16, 42, 56);
+    padding: 10px;
+}
+h1{
+    flex: 2;
+    color: aliceblue;
+}
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style-type: none;
+    color: aliceblue;
+}
+button{
+    padding: 3px;
+    background-color: aqua;
+    box-shadow:2px 3px black ;
+    border-color: black;
+}

@@ -1,0 +1,49 @@
+/* Reset to default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid salmon;
+}
+.wrapper {
+    width: 1000px;
+    min-height: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    }
+/* Utility Classes */
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    /* HEADER */
+    header {
+        width: 100%;
+        min-height: 50px;
+        background-color: darkgray;
+    }
+        .left-header {
+            width: 30%;
+            background-color:chartreuse;
+            height: 40px;
+            display: flex;
+        }
+        .right-header {
+            width: 30%;
+            background-color: cyan;
+            height: 40px;
+        }
+        /* NAV */
+        nav {
+            width: 100%;
+            background-color: crimson;
+            min-height: 150px;
+        }
+
+        /* MAIN */
+        main {
+            width: 100%;
+            background-color: gray;
+            min-height: 700px;
+        }
