@@ -10,7 +10,7 @@ function like (id){
     // console.log("like🖤", document.getElementById(id).innerText);
     var like = parseInt(document.getElementById(id).innerText);
     like++
-    console.log("like🖤", like);
+    // console.log("like🖤", like);
     document.getElementById(id).innerText = like;
 }
 
